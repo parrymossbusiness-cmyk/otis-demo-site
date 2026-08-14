@@ -10,6 +10,8 @@
   <meta property="og:description" content="First-time and move-up buyer guidance across Oakland, Antioch, Fairfield, Richmond, Brentwood, and Vallejo.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.otiswhiterealty.com/">
+  <meta property="og:image" content="https://www.otiswhiterealty.com/assets/oakland-hills-view-hero.png">
+  <link rel="preload" as="image" href="assets/oakland-hills-view-hero.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -76,7 +78,7 @@
       "url": "https://www.otiswhiterealty.com/",
       "telephone": "+1-510-555-0199",
       "priceRange": "$$",
-      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://www.otiswhiterealty.com/assets/oakland-hills-view-hero.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "215 Washington St",
@@ -150,37 +152,40 @@
   <main>
     <section class="relative overflow-hidden bg-navy text-white">
       <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1557335209-4ab7e2bff4fd?auto=format&fit=crop&w=1800&q=80" alt="East Bay neighborhood homes at golden hour" class="h-full w-full object-cover opacity-35">
-        <div class="absolute inset-0 bg-navy/75"></div>
+        <img src="assets/oakland-hills-view-hero.png" alt="Majestic Oakland Hills view property at dusk overlooking the Bay Area" class="h-full w-full object-cover object-[62%_center]">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/58 to-navy/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-navy/78 via-transparent to-navy/15"></div>
       </div>
-      <div class="relative mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-20">
-        <div class="flex flex-col justify-center">
-          <p class="mb-4 text-sm font-bold uppercase tracking-[0.28em] text-amber-300">Nuthin But Luv for East Bay buyers</p>
-          <h1 class="max-w-4xl text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">Buy your first home, or move up without losing your edge.</h1>
-          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-200">Otis White helps Oakland, Antioch, Fairfield, Richmond, Brentwood, and Vallejo buyers understand financing, timing, neighborhoods, and negotiation before the pressure hits.</p>
-          <div class="mt-8 grid gap-3 text-sm font-semibold sm:grid-cols-3">
-            <div class="rounded-md border border-white/15 bg-white/10 p-4">Down Payment Grants</div>
-            <div class="rounded-md border border-white/15 bg-white/10 p-4">Move-Up Equity Strategy</div>
-            <div class="rounded-md border border-white/15 bg-white/10 p-4">Off-Market Access</div>
+      <div class="relative mx-auto flex min-h-[calc(100vh-64px)] max-w-7xl flex-col justify-end px-4 pb-0 pt-20 sm:px-6 lg:px-8 lg:pt-28">
+        <div class="max-w-4xl pb-8 sm:pb-12 lg:pb-16">
+          <p class="mb-5 text-xs font-black uppercase tracking-[0.32em] text-amber-300 sm:text-sm">Oakland Hills views. East Bay strategy.</p>
+          <h1 class="max-w-5xl text-5xl font-black leading-[0.94] text-white sm:text-7xl lg:text-8xl">Find the East Bay home you will call yours.</h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-100 sm:text-xl">Otis White helps first-time and move-up buyers use grants, equity, city-by-city strategy, and local relationships to buy with confidence.</p>
+          <div class="mt-7 flex flex-wrap gap-3 text-xs font-black uppercase tracking-[0.16em] text-white sm:text-sm">
+            <span class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur">Down Payment Grants</span>
+            <span class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur">Move-Up Equity</span>
+            <span class="rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur">Off-Market Access</span>
           </div>
         </div>
-        <form id="contact" class="rounded-lg bg-white p-5 text-slate-900 shadow-2xl sm:p-6" action="#" method="post">
-          <h2 class="text-2xl font-black text-navy">Start your East Bay plan</h2>
-          <p class="mt-2 text-sm leading-6 text-slate-600">Tell Otis what you are trying to do next. This form is ready for your Cloudflare Pages form handler or CRM integration.</p>
-          <div class="mt-6 grid gap-4">
-            <label class="grid gap-2 text-sm font-bold" for="full-name">Full Name
-              <input class="rounded-md border border-slate-300 px-3 py-3 font-normal outline-none focus:border-accent focus:ring-2 focus:ring-accent/20" id="full-name" name="full-name" type="text" autocomplete="name" required>
+        <form id="contact" class="relative z-10 -mb-14 grid gap-0 overflow-hidden rounded-md bg-white text-slate-900 shadow-2xl ring-1 ring-black/10 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_auto]" action="#" method="post">
+          <div class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0">
+            <label class="grid gap-2 text-xs font-black uppercase tracking-[0.18em] text-slate-500" for="full-name">Full Name
+              <input class="min-h-11 border-0 p-0 text-base font-semibold text-navy outline-none placeholder:text-slate-400 focus:ring-0" id="full-name" name="full-name" type="text" autocomplete="name" placeholder="Your name" required>
             </label>
-            <div class="grid gap-4 sm:grid-cols-2">
-              <label class="grid gap-2 text-sm font-bold" for="email">Email
-                <input class="rounded-md border border-slate-300 px-3 py-3 font-normal outline-none focus:border-accent focus:ring-2 focus:ring-accent/20" id="email" name="email" type="email" autocomplete="email" required>
-              </label>
-              <label class="grid gap-2 text-sm font-bold" for="phone">Phone Number
-                <input class="rounded-md border border-slate-300 px-3 py-3 font-normal outline-none focus:border-accent focus:ring-2 focus:ring-accent/20" id="phone" name="phone" type="tel" autocomplete="tel" required>
-              </label>
-            </div>
-            <label class="grid gap-2 text-sm font-bold" for="goal">Primary Real Estate Goal
-              <select class="rounded-md border border-slate-300 px-3 py-3 font-normal outline-none focus:border-accent focus:ring-2 focus:ring-accent/20" id="goal" name="goal" required>
+          </div>
+          <div class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0">
+            <label class="grid gap-2 text-xs font-black uppercase tracking-[0.18em] text-slate-500" for="email">Email
+              <input class="min-h-11 border-0 p-0 text-base font-semibold text-navy outline-none placeholder:text-slate-400 focus:ring-0" id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required>
+            </label>
+          </div>
+          <div class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0">
+            <label class="grid gap-2 text-xs font-black uppercase tracking-[0.18em] text-slate-500" for="phone">Phone Number
+              <input class="min-h-11 border-0 p-0 text-base font-semibold text-navy outline-none placeholder:text-slate-400 focus:ring-0" id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(510) 555-0199" required>
+            </label>
+          </div>
+          <div class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0">
+            <label class="grid gap-2 text-xs font-black uppercase tracking-[0.18em] text-slate-500" for="goal">Goal
+              <select class="min-h-11 border-0 p-0 text-base font-semibold text-navy outline-none focus:ring-0" id="goal" name="goal" required>
                 <option value="">Choose your goal</option>
                 <option>First-Time Buyer</option>
                 <option>Move-Up Buyer</option>
@@ -188,8 +193,10 @@
                 <option>Home Valuation</option>
               </select>
             </label>
-            <label class="grid gap-2 text-sm font-bold" for="target-city">Target City
-              <select class="rounded-md border border-slate-300 px-3 py-3 font-normal outline-none focus:border-accent focus:ring-2 focus:ring-accent/20" id="target-city" name="target-city" required>
+          </div>
+          <div class="border-b border-slate-200 p-4 sm:border-b-0 sm:border-r">
+            <label class="grid gap-2 text-xs font-black uppercase tracking-[0.18em] text-slate-500" for="target-city">Target City
+              <select class="min-h-11 border-0 p-0 text-base font-semibold text-navy outline-none focus:ring-0" id="target-city" name="target-city" required>
                 <option value="">Choose a city</option>
                 <option>Oakland</option>
                 <option>Antioch</option>
@@ -199,13 +206,13 @@
                 <option>Vallejo</option>
               </select>
             </label>
-            <button class="rounded-md bg-accent px-5 py-3 font-black text-white hover:bg-blue-950" type="submit">Request my buying plan</button>
           </div>
+          <button class="min-h-20 bg-navy px-8 py-5 text-base font-black text-white transition hover:bg-accent lg:min-h-full" type="submit">Request Plan</button>
         </form>
       </div>
     </section>
 
-    <section id="about" class="bg-white py-16 sm:py-20">
+    <section id="about" class="bg-white pb-16 pt-28 sm:pb-20 sm:pt-32">
       <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-8">
         <div>
           <p class="text-sm font-black uppercase tracking-[0.22em] text-gold">About Otis White</p>

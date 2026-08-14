@@ -5,6 +5,7 @@ Pure HTML5 and Tailwind CDN site for Cloudflare Pages.
 ## Files
 
 - `index.html` - homepage with lead form, target markets, AEO block, media spotlight, and schema.
+- `assets/oakland-hills-view-hero.png` - custom Oakland Hills view-property hero image.
 - `oakland-real-estate.html` - Oakland city landing page template.
 - `antioch-real-estate.html`, `fairfield-real-estate.html`, `richmond-real-estate.html`, `brentwood-real-estate.html`, and `vallejo-real-estate.html` - supporting city landing pages linked from the homepage.
 - `first-time-buyer-guide.html` - first-time buyer guide template.
