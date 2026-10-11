@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>East Bay First-Time Buyer Playbook | Otis White</title>
+<meta name="description" content="Four plays for buying your first home in the East Bay, from Otis White. Know your number, pick your city, find the help and spot hidden costs.">
+<!-- This page is shared by link after someone asks for it. Delete the next line if you want Google to list it. -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.otiswhitejrrealty.com/first-time-buyer-playbook.html">
+<meta property="og:title" content="East Bay First-Time Buyer Playbook">
+<meta property="og:description" content="Four plays for buying your first home in the East Bay, from Otis White.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.otiswhitejrrealty.com/first-time-buyer-playbook.html">
+<meta property="og:image" content="https://www.otiswhitejrrealty.com/assets/playbook/otis-street.jpg">
+<link rel="preload" href="assets/playbook/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Archivo";src:url("assets/playbook/archivo.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+:root{
+  --navy:#0B1B33; --yellow:#FFC72C; --sky:#9DB6DC; --sky-pale:#E4EDF8; --paper:#FFFFFF;
+  --ink:#1B2942; --muted:#4A5873; --sign:#0B7A43;
+  --shotw:max(748px,112vw);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:18px;line-height:1.6;font-weight:450}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:4px solid var(--yellow);outline-offset:3px;border-radius:6px}
+.disp{font-weight:900;font-stretch:64%;text-transform:uppercase;line-height:.92;letter-spacing:.005em;color:var(--navy)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;z-index:20;background:var(--yellow);color:var(--navy);padding:10px 14px;border-radius:8px;font-weight:800}
+
+/* site bar */
+.bar{position:relative;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;padding:10px 16px}
+.bar .who{font-weight:900;font-stretch:80%;font-size:19px;letter-spacing:.01em;line-height:1.1;text-decoration:none;color:#fff}
+.bar .who small{display:block;font-weight:600;font-stretch:100%;font-size:11px;letter-spacing:.08em;color:#C9D6EA;margin-top:3px}
+.bar nav{display:none;gap:28px;font-size:15px;font-weight:650}
+.bar nav a{text-decoration:none;color:#fff}
+.bar nav a:hover{color:var(--yellow)}
+.call{background:var(--yellow);color:var(--navy);font-weight:900;font-stretch:84%;font-size:16px;text-decoration:none;padding:12px 16px;border-radius:8px;white-space:nowrap}
+
+/* hero: the list from the reels is the table of contents */
+.hero{position:relative;overflow:hidden;background:var(--sky)}
+.hero .sky{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 100%}
+.hero .shot{position:absolute;left:50%;bottom:0;width:var(--shotw);height:auto;max-width:none;transform:translateX(-48.4%);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 22px);mask-image:linear-gradient(to bottom,transparent 0,#000 22px)}
+.hero .wash{position:absolute;left:0;right:0;top:0;height:62%;background:linear-gradient(to bottom,rgba(255,255,255,.36),rgba(255,255,255,.2) 70%,rgba(255,255,255,0))}
+.hero-in{position:relative;padding:22px 16px 0;min-height:calc(var(--shotw) * .5625 + 328px)}
+.plate{display:inline-block;margin:0;background:var(--navy);color:var(--yellow);font-weight:900;font-stretch:66%;text-transform:uppercase;line-height:.95;font-size:clamp(30px,9.9vw,43px);white-space:nowrap;letter-spacing:.012em;padding:12px 16px 5px;border-radius:10px;box-shadow:0 10px 22px rgba(4,12,26,.3)}
+.plays{list-style:none;margin:10px 0 0;padding:0}
+.plays a{display:flex;align-items:center;gap:12px;height:51px;text-decoration:none}
+.chip{flex:none;width:42px;height:42px;border-radius:10px;background:var(--yellow);box-shadow:inset 0 0 0 4px var(--navy),0 6px 12px rgba(4,12,26,.22);color:var(--navy);font-weight:900;font-stretch:80%;font-size:28px;display:flex;align-items:center;justify-content:center;line-height:1}
+.plays b{font-weight:900;font-stretch:62%;text-transform:uppercase;font-size:clamp(28px,9.4vw,39px);white-space:nowrap;line-height:1;color:var(--navy);padding-top:5px;background-image:linear-gradient(var(--yellow),var(--yellow));background-repeat:no-repeat;background-position:0 100%;background-size:100% 7px}
+.plays a:hover b{background-size:100% 100%}
+.name{position:absolute;left:16px;bottom:22px;display:flex;border-radius:7px;overflow:hidden;box-shadow:0 8px 20px rgba(4,12,26,.35)}
+.name b{background:var(--yellow);color:var(--navy);font-weight:800;font-stretch:88%;font-size:16px;padding:6px 10px 5px}
+.name i{background:var(--navy);color:#fff;font-style:normal;font-weight:600;font-size:11px;letter-spacing:.06em;padding:0 10px;display:flex;align-items:center}
+.card-photo{display:none}
+/* one moment on load: the five rows fill in turn, like the list in the reels */
+@media (prefers-reduced-motion:no-preference){
+  .plays b{animation:fill .5s cubic-bezier(.2,.8,.2,1) both}
+  .plays li:nth-child(1) b{animation-delay:.25s}.plays li:nth-child(2) b{animation-delay:.4s}.plays li:nth-child(3) b{animation-delay:.55s}.plays li:nth-child(4) b{animation-delay:.7s}
+  @keyframes fill{from{background-size:0 7px}}
+}
+
+/* tracker: sticks to the top and checks off each play */
+.track{position:sticky;top:0;z-index:4;display:flex;align-items:center;gap:8px;background:var(--paper);padding:10px 16px;border-bottom:2px solid var(--navy)}
+.track .t{background:var(--navy);color:var(--yellow);font-weight:900;font-stretch:66%;text-transform:uppercase;font-size:19px;line-height:1;padding:8px 10px 5px;border-radius:7px;margin-right:auto;text-decoration:none}
+.tc{position:relative;width:34px;height:34px;border-radius:8px;background:#fff;box-shadow:inset 0 0 0 3px var(--navy);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:900;font-stretch:80%;font-size:18px;line-height:1;text-decoration:none}
+.tc svg{display:none}
+.tc.now{background:var(--navy);color:var(--yellow)}
+.tc.on{background:var(--yellow)}
+.tc.on span{display:none}.tc.on svg{display:block}
+
+/* reading column */
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.intro{padding:30px 0 0}
+.intro p{margin:0;font-size:20px;line-height:1.5}
+.play{padding:38px 0 6px;scroll-margin-top:62px}
+.play-h{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.play-h .chip{width:64px;height:64px;border-radius:14px;font-size:44px;box-shadow:inset 0 0 0 6px var(--navy),0 8px 16px rgba(4,12,26,.2)}
+.play-h h2{margin:0;font-size:clamp(40px,13vw,56px)}
+.play p{margin:0 0 16px}
+.play .lead{font-size:20px;line-height:1.5}
+.play h3{margin:28px 0 8px;font-weight:800;font-stretch:84%;font-size:24px;line-height:1.2;color:var(--navy)}
+.do{margin:26px 0 0;padding:14px 16px 13px;border-left:8px solid var(--yellow);background:var(--sky-pale);border-radius:0 10px 10px 0;font-weight:550}
+.do b{display:block;font-weight:900;font-stretch:70%;text-transform:uppercase;font-size:22px;line-height:1.1;color:var(--navy);margin-bottom:4px}
+.ring{display:inline-block;margin:18px 0 0;font-weight:800;font-stretch:88%;font-size:17px;color:var(--navy);text-decoration:none;border-bottom:4px solid var(--yellow);padding-bottom:1px}
+.ring:hover{background:var(--yellow)}
+
+/* monthly cost: a simple bill */
+.bill{margin:14px 0 18px;border:4px solid var(--navy);border-radius:14px;overflow:hidden}
+.bill div{display:flex;justify-content:space-between;gap:16px;padding:10px 16px;border-top:2px solid #D5DEEC;font-weight:550}
+.bill div:first-child{border-top:0}
+.bill b{font-weight:900;font-stretch:74%;font-size:22px;color:var(--navy);white-space:nowrap}
+.bill .tot{background:var(--yellow);border-top:4px solid var(--navy);font-weight:800;color:var(--navy)}
+.bill .tot b{font-size:30px;line-height:1.1}
+
+/* fact card: the number card from the reels */
+.fact{margin:28px auto 32px;max-width:520px;background:#fff;padding:9px;border-radius:12px;box-shadow:0 18px 38px rgba(4,12,26,.26);transform:rotate(-1.4deg)}
+.fact.r{transform:rotate(1.3deg)}
+.fact-in{background:var(--yellow);box-shadow:inset 0 0 0 6px var(--navy);border-radius:16px;padding:22px 24px 16px;color:var(--navy)}
+.fact .lab{display:inline-block;background:var(--navy);color:var(--yellow);font-weight:900;font-stretch:66%;text-transform:uppercase;font-size:24px;line-height:1;padding:9px 13px 5px;border-radius:8px}
+.fact .num{font-weight:900;font-stretch:64%;font-size:clamp(84px,27vw,120px);line-height:.9;letter-spacing:-.01em;margin:14px 0 2px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fact .cap{font-weight:800;font-stretch:84%;font-size:21px;line-height:1.25}
+.fact .src{font-weight:550;font-size:14px;line-height:1.35;margin-top:12px;padding-top:9px;border-top:3px solid var(--navy)}
+
+/* city: a street sign on a pole, with the facts hanging off the pole */
+.cities{max-width:680px;margin:0 auto;padding:0 20px}
+.city{position:relative;margin:38px 0 0;padding:0 0 8px 30px}
+.city::before{content:"";position:absolute;left:6px;top:-10px;bottom:0;width:12px;border-radius:6px;background:linear-gradient(90deg,#9aa3af,#eef1f5 45%,#7f8997);box-shadow:0 0 0 3px var(--navy)}
+.blade{position:relative;display:inline-flex;align-items:baseline;gap:9px;margin:0 0 0 -38px;background:var(--sign);color:#fff;border:4px solid #fff;border-radius:10px;box-shadow:0 0 0 4px var(--navy),0 10px 20px rgba(4,12,26,.28);padding:9px 16px 2px;font-weight:900;font-stretch:66%;text-transform:uppercase;line-height:1;transform:rotate(-2deg);white-space:nowrap}
+.city:nth-child(even) .blade{transform:rotate(1.6deg)}
+.blade b{font-size:clamp(32px,10.4vw,46px);letter-spacing:.01em}.blade em{font-style:normal;font-size:clamp(13px,3.9vw,19px)}
+.city dl{margin:18px 0 0;display:grid;gap:14px}
+.city dt{font-weight:650;font-size:14px;letter-spacing:.02em;color:var(--muted);line-height:1.2}
+.city dd{margin:2px 0 0;font-weight:900;font-stretch:70%;font-size:32px;line-height:1.02;color:var(--navy);text-transform:uppercase}
+.city dd small{display:block;font-weight:500;font-stretch:100%;font-size:16px;line-height:1.4;text-transform:none;color:var(--ink);margin-top:5px}
+.fine{font-size:14px;line-height:1.4;color:var(--muted);margin:14px 0 0}
+
+/* contact: one short form */
+.ask{margin:46px 0 0;background:var(--navy);color:#fff;padding:36px 0 30px;scroll-margin-top:56px}
+.ask h2{margin:0 0 8px;font-size:clamp(44px,14vw,60px);color:var(--yellow)}
+.ask p{margin:0 0 18px;color:#DCE6F5}
+.ask label{display:block;font-weight:650;font-size:15px;margin:12px 0 5px}
+.ask input,.ask select{width:100%;font:inherit;font-size:17px;color:var(--navy);background:#fff;border:0;border-radius:8px;padding:13px 12px}
+.ask .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.ask button{margin-top:18px;width:100%;font:inherit;font-weight:900;font-stretch:70%;text-transform:uppercase;font-size:26px;line-height:1;color:var(--navy);background:var(--yellow);border:0;border-radius:10px;padding:17px 14px 12px;box-shadow:inset 0 0 0 4px var(--navy),0 0 0 3px var(--yellow);cursor:pointer}
+.ask button[disabled]{opacity:.6;cursor:default}
+.ask .note{font-size:14px;line-height:1.45;color:#B9C7DD;margin:14px 0 0}
+.ask .msg{margin:14px 0 0;font-weight:700;color:var(--yellow)}
+.ask .done{background:var(--yellow);color:var(--navy);box-shadow:inset 0 0 0 6px var(--navy);border-radius:16px;padding:22px 22px 18px}
+.ask .done b{display:block;font-weight:900;font-stretch:66%;text-transform:uppercase;font-size:40px;line-height:.95;margin-bottom:8px}
+.ask .done span{font-weight:650}
+.legal{background:var(--navy);color:#B9C7DD;font-size:13px;line-height:1.5;text-align:center;padding:6px 20px 30px}
+.legal p{margin:0 auto 10px;max-width:640px}
+
+@media (min-width:900px){
+  body{font-size:19px}
+  .bar{padding:14px 40px}.bar nav{display:flex}.bar .who{font-size:22px}
+  .hero .shot,.hero .sky,.hero .wash{display:none}
+  .hero{background:linear-gradient(to bottom,#8FB0E0 0,#C4D6EE 62%,#E4EDF8 100%)}
+  .hero-in{max-width:1240px;margin:0 auto;padding:50px 40px 60px;min-height:0;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+  .plate{font-size:62px;padding:20px 28px 9px;border-radius:16px}
+  .plays{margin-top:20px}
+  .plays a{height:76px;gap:18px}
+  .plays .chip{width:60px;height:60px;border-radius:14px;font-size:40px;box-shadow:inset 0 0 0 6px var(--navy),0 8px 16px rgba(4,12,26,.22)}
+  .plays b{font-size:56px;background-size:100% 9px}
+  @keyframes fill{from{background-size:0 9px}}
+  .name{display:none}
+  .card-photo{display:block;margin:0;background:#fff;padding:14px 14px 0;border-radius:14px;box-shadow:0 26px 54px rgba(4,12,26,.38);transform:rotate(2.2deg)}
+  .card-photo img{display:block;width:100%;height:auto;border-radius:6px;aspect-ratio:4/3.9;object-fit:cover;object-position:46% 30%}
+  .card-photo figcaption{font-weight:800;font-stretch:88%;font-size:26px;line-height:1.15;color:var(--navy);padding:13px 6px 15px}
+  .card-photo figcaption small{display:block;font-weight:600;font-stretch:96%;font-size:17px;line-height:1.3;color:#33415a;margin-top:3px}
+  .track{padding:12px 40px}
+  .play{padding-top:56px;scroll-margin-top:70px}
+  .play-h .chip{width:84px;height:84px;border-radius:18px;font-size:58px}
+  .play-h h2{font-size:76px}
+  .cities{max-width:1040px;display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+  .city{margin-top:46px}
+}
+@media print{
+  .bar nav,.call,.track,.ask form,.ring,.skip{display:none!important}
+  .hero-in{min-height:0;padding-bottom:20px}.hero .shot,.name{display:none}
+  .fact,.blade{transform:none!important;box-shadow:none}
+  .fact,.city,.bill,.do{break-inside:avoid}
+  .ask{background:#fff;color:var(--navy)}.ask h2{color:var(--navy)}.ask p{color:var(--ink)}
+  .legal{background:#fff;color:var(--ink)}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#play-1">Skip to play 1</a>
+<header class="bar">
+  <a class="who" href="index.html">OTIS WHITE, JR<small>eXp Realty | CA DRE# 02134236</small></a>
+  <nav aria-label="Site">
+    <a href="index.html#about">About</a>
+    <a href="index.html#markets">Markets</a>
+    <a href="index.html#buyer-guides">Buyer Guides</a>
+    <a href="index.html#luv-and-business">The Neighborhoods</a>
+  </nav>
+  <a class="call" href="tel:+14157561695">Call Otis</a>
+</header>
+
+<section class="hero">
+  <img class="sky" src="assets/playbook/sky.jpg" alt="">
+  <img class="shot" src="assets/playbook/otis-street.jpg" alt="Otis White standing on Texas Street in downtown Fairfield" width="1600" height="900">
+  <div class="wash"></div>
+  <div class="hero-in">
+    <div>
+      <h1 class="plate">East Bay First-Time<br>Buyer Playbook</h1>
+      <ol class="plays">
+        <li><a href="#play-1"><span class="chip">1</span><b>Know your number</b></a></li>
+        <li><a href="#play-2"><span class="chip">2</span><b>Pick your city</b></a></li>
+        <li><a href="#play-3"><span class="chip">3</span><b>Find the help</b></a></li>
+        <li><a href="#play-4"><span class="chip">4</span><b>Spot hidden costs</b></a></li>
+      </ol>
+    </div>
+    <figure class="card-photo">
+      <img src="assets/playbook/otis-street.jpg" alt="Otis White standing on Texas Street in downtown Fairfield" width="1600" height="900">
+      <figcaption>Otis White<small>East Bay first-time buyer agent. 26 first-time buyers closed in the past 24 months.</small></figcaption>
+    </figure>
+    <div class="name"><b>Otis White</b><i>REALTOR&reg; &nbsp;|&nbsp; DRE #02134236</i></div>
+  </div>
+</section>
+
+<nav class="track" aria-label="Your place in the playbook">
+  <a class="t" href="#">Playbook</a>
+  <a class="tc" href="#play-1" aria-label="Play 1"><span>1</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12.5l5.2 5.2L20 6.8" fill="none" stroke="#0B1B33" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  <a class="tc" href="#play-2" aria-label="Play 2"><span>2</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12.5l5.2 5.2L20 6.8" fill="none" stroke="#0B1B33" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  <a class="tc" href="#play-3" aria-label="Play 3"><span>3</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12.5l5.2 5.2L20 6.8" fill="none" stroke="#0B1B33" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  <a class="tc" href="#play-4" aria-label="Play 4"><span>4</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12.5l5.2 5.2L20 6.8" fill="none" stroke="#0B1B33" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+</nav>
+
+<main id="main">
+  <div class="wrap">
+    <div class="intro">
+      <p>Four plays, in the order you will use them. Each one ends with one thing to do this week.</p>
+    </div>
+
+    <!-- PLAY 1 -->
+    <section class="play" id="play-1">
+      <div class="play-h"><span class="chip">1</span><h2 class="disp">Know your number</h2></div>
+      <p class="lead">Your number is the full monthly cost. It is not only the loan. Work it out before you look at a single house.</p>
+
+      <h3>What a $500,000 house costs each month</h3>
+      <p>Take this example. You buy a $500,000 house in Vallejo. You use an FHA loan with 3.5% down.</p>
+      <div class="bill">
+        <div><span>The loan</span><b>about $3,100</b></div>
+        <div><span>Property tax</span><b>about $460</b></div>
+        <div><span>Home insurance</span><b>about $100</b></div>
+        <div><span>Mortgage insurance</span><b>about $220</b></div>
+        <div class="tot"><span>Your total each month</span><b>about $3,880</b></div>
+      </div>
+      <p>That is everything, not only the loan. Split it between two people and that is $1,940 each. Rates change, so run your own numbers.</p>
+
+      <h3>Your debts change your number</h3>
+      <p>Lenders compare your debts to your income. It is called debt to income. A lower number is better.</p>
+      <p>Student loans do not stop you from buying a home. Lenders count your student loan payment each month. The rules differ by loan type, so ask your lender how yours is counted.</p>
+      <p>The bigger problem is credit cards and car loans. Each payment lowers what you can borrow.</p>
+      <div class="do"><b>Do this week</b>Ask a lender to run your real numbers. Ask for the full monthly cost, not only the loan.</div>
+      <a class="ring" href="#ask">Want Otis to call you?</a>
+    </section>
+
+    <!-- PLAY 2 -->
+    <section class="play" id="play-2">
+      <div class="play-h"><span class="chip">2</span><h2 class="disp">Pick your city</h2></div>
+      <p class="lead">Each city has its own ride into San Francisco and its own feel on foot. So start with where you work.</p>
+    </section>
+  </div>
+
+  <div class="cities">
+    <section class="city">
+      <h3 class="blade"><b>Oakland</b><em>Alameda County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>BART and Transbay buses<small>From Rockridge station, BART is about 20 minutes to downtown San Francisco. From Grand Lake and the Laurel, Transbay buses run to the city.</small></dd></div>
+        <div><dt>On foot</dt><dd>College, Grand and Lakeshore<small>Rockridge has restaurants, cafes and bookshops along College Avenue. Market Hall is across from the BART station. Grand Lake has two main streets, Grand Avenue and Lakeshore Avenue.</small></dd></div>
+        <div><dt>Things to do</dt><dd>Lake Merritt<small>The Grand Lake Farmers Market runs on Saturday mornings. A 3.4 mile path circles Lake Merritt. You can rent a kayak at the Lake Merritt Boating Center or see a film at the Grand Lake Theater.</small></dd></div>
+      </dl>
+    </section>
+
+    <section class="city">
+      <h3 class="blade"><b>Richmond</b><em>Contra Costa County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>Ferry, about 35 minutes<small>It lands in downtown San Francisco. You can also take BART. Richmond station is the start of the line, so trains start empty.</small></dd></div>
+        <div><dt>On foot</dt><dd>Richmond Annex<small>From the Richmond Annex, you can walk to El Cerrito Plaza BART. At Marina Bay, the ferry and the bay trail are close.</small></dd></div>
+        <div><dt>Things to do</dt><dd>The bay trail<small>Marina Bay sits by the water. Walk the bay trail there.</small></dd></div>
+      </dl>
+    </section>
+
+    <section class="city">
+      <h3 class="blade"><b>Berkeley</b><em>Alameda County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>BART from downtown<small>Central and downtown Berkeley are near BART.</small></dd></div>
+        <div><dt>On foot</dt><dd>Shops close to home<small>Many buildings in central and downtown Berkeley are a short walk to shops and the campus.</small></dd></div>
+        <div><dt>Things to do</dt><dd>The campus and 4th Street<small>Downtown is near the UC Berkeley campus. West Berkeley has 4th Street.</small></dd></div>
+      </dl>
+    </section>
+
+    <section class="city">
+      <h3 class="blade"><b>Antioch</b><em>Contra Costa County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>BART from Antioch<small>It takes you to Oakland and San Francisco. You do not have to drive at all. You can read or work on the way.</small></dd></div>
+        <div><dt>On foot</dt><dd>The old downtown<small>North Antioch is near the river and the old downtown. South of Lone Tree Way, stores and parks are close.</small></dd></div>
+        <div><dt>Things to do</dt><dd>Black Diamond Mines<small>Black Diamond Mines park is close to the south side of town.</small></dd></div>
+      </dl>
+    </section>
+
+    <section class="city">
+      <h3 class="blade"><b>Vallejo</b><em>Solano County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>Ferry, about 60 minutes<small>It leaves from downtown Vallejo. There is no bridge and no traffic. You sit down and ride.</small></dd></div>
+        <div><dt>On foot</dt><dd>Downtown to the ferry<small>You can walk to the ferry from the old downtown. From St. Vincent's Hill, you can walk to the waterfront.</small></dd></div>
+        <div><dt>Things to do</dt><dd>Trails by the water<small>Glen Cove has trails along the Carquinez Strait.</small></dd></div>
+      </dl>
+    </section>
+
+    <section class="city">
+      <h3 class="blade"><b>Fairfield</b><em>Solano County</em></h3>
+      <dl>
+        <div><dt>Getting to San Francisco</dt><dd>Capitol Corridor train<small>It stops at Fairfield-Vacaville and Suisun-Fairfield. At Richmond you can switch to BART, which takes you into San Francisco.</small></dd></div>
+        <div><dt>On foot</dt><dd>Texas Street<small>Downtown has restaurants, coffee shops, bakeries and shops around Texas and Webster streets.</small></dd></div>
+        <div><dt>Things to do</dt><dd>Market and festival<small>Every Thursday evening from spring through fall, Texas Street holds the Downtown Fairfield Farmers Market. Downtown also hosts the Fairfield Tomato and Vine Festival.</small></dd></div>
+      </dl>
+    </section>
+
+  </div>
+
+  <div class="wrap">
+    <section class="play" style="padding-top:8px">
+      <div class="do"><b>Do this week</b>Walk each area on a weekend. Drive or ride the commute once before you decide.</div>
+      <a class="ring" href="#ask">Want Otis to call you?</a>
+    </section>
+
+    <!-- PLAY 3 -->
+    <section class="play" id="play-3">
+      <div class="play-h"><span class="chip">3</span><h2 class="disp">Find the help</h2></div>
+      <p class="lead">You may not need $50,000 saved to buy a house. Here is where the help comes from.</p>
+      <div class="fact"><div class="fact-in">
+        <span class="lab">FHA loan</span>
+        <div class="num">3.5%</div>
+        <div class="cap">down. On a $500,000 home, that is $17,500. Many buyers think they need 20%.</div>
+        <div class="src">Ask a lender which programs fit you.</div>
+      </div></div>
+
+      <h3>A state loan for the down payment</h3>
+      <p>A state program called CalHFA can lend the down payment. It can cover 3% to 3.5% of the price. You pay that loan back later. There is no monthly payment on it. These programs have income limits. They can also run out of money.</p>
+
+      <h3>A credit from the seller</h3>
+      <p>We ask the seller for a credit. Often it is 2.5% to 3% of the price. It can pay your loan fees, your appraisal and your title costs. Your savings stay in the bank. Your loan type sets how big a credit can be, so ask your lender for that limit early.</p>
+
+      <h3>A lower rate for the first two years</h3>
+      <p>It is called a 2-1 buydown. In year one, your rate is 2% lower. In year two, it is 1% lower. The seller pays for it as a credit. In year three, the rate goes back up. So make sure you can afford the full payment.</p>
+
+      <h3>A loan that pays for repairs</h3>
+      <p>It is called an FHA 203(k) loan. It pays for the house and the repairs. You put 3.5% down. You get one loan and one payment. It takes more paperwork and an approved contractor, so give yourself extra time to close.</p>
+
+      <h3>A second unit that helps pay</h3>
+      <p>FHA lets you buy 2 to 4 units with 3.5% down. You must live in one of the units. A lender can count 75% of the expected rent. A back unit in Richmond can rent for $1,600 to $2,000. Check the permits before you make an offer. Being a landlord is also work.</p>
+
+      <h3>What FHA checks on the house</h3>
+      <p>The appraiser checks the house too. Peeling paint can be flagged. So can a missing handrail or an old roof. The seller may need to fix those first.</p>
+
+      <div class="do"><b>Do this week</b>Ask a lender which programs fit you. Check what is open before you shop.</div>
+      <a class="ring" href="#ask">Want Otis to call you?</a>
+    </section>
+
+    <!-- PLAY 4 -->
+    <section class="play" id="play-4">
+      <div class="play-h"><span class="chip">4</span><h2 class="disp">Spot hidden costs</h2></div>
+      <p class="lead">Some costs are not in the list price. Check these before you write an offer.</p>
+      <div class="fact r"><div class="fact-in">
+        <span class="lab">Mello-Roos tax</span>
+        <div class="num">$450</div>
+        <div class="cap">a month. This tax can add $200 to $450 every month in newer neighborhoods in Antioch and Brentwood.</div>
+        <div class="src">Read the tax bill before you make an offer.</div>
+      </div></div>
+
+      <h3>The city transfer tax</h3>
+      <p>Oakland adds a 1.5% tax when a home sells. That covers homes from $300,000 to $2 million. On a $700,000 home, that is $10,500. The buyer and the seller often split it, so your half is about $5,250.</p>
+      <p>Some first-time buyers qualify for a lower city rate. It depends on your income. Check the rules with the City of Oakland.</p>
+      <p>Berkeley charges a 1.5% transfer tax on most homes. On an $800,000 home, that is $12,000. If you make the home safer in an earthquake, the city can refund up to one third of the tax. That is up to $4,000 back. You have one year after the sale, and the work has to qualify. Keep every permit and receipt. Check the rules with the City of Berkeley first.</p>
+
+      <h3>The sewer pipe under the yard</h3>
+      <p>It is called a private sewer lateral. The pipe must pass a test when the home sells. In Oakland, EBMUD runs that program. It also covers Alameda, Albany, Emeryville and Piedmont.</p>
+      <p>A new pipe can cost $5,000 to $12,000. A seller can pay a deposit and get 180 more days. Then the repair can land on the buyer. So we put it in your offer. Check your address with EBMUD before you offer.</p>
+
+      <h3>Mello-Roos</h3>
+      <p>It is an extra tax on newer neighborhoods. It pays for roads, parks and schools. A lender counts that tax against you. $400 a month can cut your loan by about $50,000.</p>
+      <p>Many homes south of Lone Tree Way in Antioch have it. Older homes in north Antioch often do not.</p>
+
+      <h3>Fire insurance in the Berkeley hills</h3>
+      <p>Homes near Grizzly Peak sit in high fire zones. Many insurers will not write a policy there. You may need the California FAIR Plan, with a second policy on top. Together they can cost $4,000 to $8,000 a year.</p>
+      <p>Near San Pablo Avenue, most homes are outside those zones. Check the fire map for any address first.</p>
+
+      <div class="do"><b>Do this week</b>Ask for the tax bill on any home you like. Get an insurance quote before you remove your contingencies.</div>
+      <a class="ring" href="#ask">Want Otis to call you?</a>
+    </section>
+  </div>
+
+  <section class="ask" id="ask">
+    <div class="wrap">
+      <h2 class="disp">Want Otis to call you?</h2>
+      <div id="ask-body">
+        <p>Tell him where you are looking. He will reach out within one day.</p>
+        <form id="ask-form" novalidate>
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <label for="f-contact">Phone or email</label>
+          <input id="f-contact" name="contact" type="text" autocomplete="tel" inputmode="email" required>
+          <label for="f-city">Where are you looking?</label>
+          <select id="f-city" name="city">
+            <option>Not sure yet</option>
+            <option>Oakland</option>
+            <option>Richmond</option>
+            <option>Berkeley</option>
+            <option>Antioch</option>
+            <option>Vallejo</option>
+            <option>Fairfield</option>
+            <option>Somewhere else in the East Bay</option>
+          </select>
+          <div class="hp" aria-hidden="true"><label for="f-web">Leave this empty</label><input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <button type="submit">Have Otis contact me</button>
+          <p class="msg" id="ask-msg" role="alert" hidden></p>
+          <p class="note">By sending this, you ask Otis White to contact you about buying a home.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="legal">
+    <p>This playbook is general information. It is not loan, tax or legal advice. Prices, programs and rules change. Check with your lender, the city or the agency named before you act.</p>
+    <p>Otis White | REALTOR&reg; | DRE #02134236 | eXp Realty of California, Inc.</p>
+  </div>
+</main>
+
+<script>
+/* 1. Paste your Google Sheet web app link between the quotes. Setup steps are in PLAYBOOK-SETUP.md. */
+var SHEET_URL = "";
+
+/* tracker: mark the play you are on, and check off the ones you passed */
+(function(){
+  var plays = [].slice.call(document.querySelectorAll('.play[id]'));
+  var chips = [].slice.call(document.querySelectorAll('.tc'));
+  function mark(){
+    var line = window.innerHeight * 0.4, now = -1;
+    plays.forEach(function(p, i){ if (p.getBoundingClientRect().top <= line) now = i; });
+    var ask = document.getElementById('ask').getBoundingClientRect().top <= line;
+    chips.forEach(function(c, i){
+      c.classList.toggle('on', i < now || (ask && i <= now));
+      c.classList.toggle('now', i === now && !ask);
+    });
+  }
+  var t; window.addEventListener('scroll', function(){ if (!t) t = requestAnimationFrame(function(){ t = 0; mark(); }); }, {passive:true});
+  window.addEventListener('resize', mark); mark();
+})();
+
+/* contact form: sends name, contact and city to the Google Sheet */
+(function(){
+  var form = document.getElementById('ask-form'), msg = document.getElementById('ask-msg'), body = document.getElementById('ask-body');
+  function say(t){ msg.textContent = t; msg.hidden = false; }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = form.name.value.trim(), contact = form.contact.value.trim();
+    if (!name){ say('Add your name so Otis knows who to ask for.'); form.name.focus(); return; }
+    if (contact.replace(/\D/g,'').length < 7 && !/^\S+@\S+\.\S+$/.test(contact)){ say('Add a phone number or an email so Otis can reach you.'); form.contact.focus(); return; }
+    if (!SHEET_URL){ say('This form is not connected yet. Call Otis at (415) 756-1695.'); return; }
+    var btn = form.querySelector('button'); btn.disabled = true; btn.textContent = 'Sending';
+    var data = new URLSearchParams(new FormData(form)); data.append('page', location.pathname);
+    fetch(SHEET_URL, {method:'POST', mode:'no-cors', body:data}).then(function(){
+      body.innerHTML = '<div class="done" role="status"><b>Got it.</b><span>Otis will reach out within one day. If you need him sooner, call <span style="white-space:nowrap">(415) 756-1695</span>.</span></div>';
+    }).catch(function(){
+      btn.disabled = false; btn.textContent = 'Have Otis contact me';
+      say('That did not send. Check your connection and try again, or call Otis at (415) 756-1695.');
+    });
+  });
+})();
+</script>
+</body>
+</html>
