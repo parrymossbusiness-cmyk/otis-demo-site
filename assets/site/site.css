@@ -157,3 +157,55 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
   .ask{background:#fff;color:var(--navy)}.ask h2{color:var(--navy)}
   .legal,.site-foot{background:#fff;color:var(--ink)}
 }
+
+/* update 3: dates, author box, programs, video pages */
+.upd{margin:10px 0 0;font-size:14px;font-weight:650;color:var(--muted)}
+.vcard figcaption .watch{display:inline-block;margin-top:6px;font-size:14px;font-weight:800;color:var(--navy);text-decoration:none;border-bottom:3px solid var(--yellow)}
+.vcard figcaption .watch:hover{background:var(--yellow)}
+.who-box{display:flex;gap:16px;align-items:flex-start;background:var(--sky-pale);border-radius:14px;padding:16px 18px;margin:0 0 30px;max-width:46em}
+.who-box img{width:72px;height:72px;border-radius:50%;object-fit:cover;flex:none;border:3px solid var(--navy)}
+.who-box b{display:block;font-weight:900;font-stretch:80%;font-size:21px;color:var(--navy);line-height:1.1}
+.who-box span{display:block;font-size:14px;font-weight:650;color:var(--muted);margin-top:3px}
+.who-box p{margin:8px 0 0;font-size:16px;line-height:1.5}
+.progs{display:grid;gap:14px}
+.prog{background:#fff;border:4px solid var(--navy);border-radius:14px;padding:14px 16px 14px}
+.prog h3,.prog h4{margin:6px 0 4px;font-weight:800;font-stretch:84%;font-size:22px;line-height:1.2;color:var(--navy)}
+.prog p{margin:6px 0 0;font-size:16px;line-height:1.5}
+.prog .by{font-size:14px;font-weight:650;color:var(--muted);margin-top:0}
+.prog .stt{font-weight:700}
+.prog .src{display:inline-block;margin-top:8px;font-weight:800;font-size:15px;color:var(--navy);text-decoration:none;border-bottom:3px solid var(--yellow)}
+.prog .src:hover{background:var(--yellow)}
+.st{display:inline-block;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:999px}
+.st-open{background:var(--sign);color:#fff}
+.st-rounds{background:var(--yellow);color:var(--navy)}
+.st-closed{background:#D7DCE4;color:#33405A}
+.st-check{background:var(--sky);color:var(--navy)}
+.state-help{margin:22px 0 0;padding:16px 18px;border-left:8px solid var(--sign);background:var(--sky-pale);border-radius:0 12px 12px 0;max-width:46em}
+.state-help h3{margin:0 0 8px}
+.state-help ul{margin:0;padding-left:20px;line-height:1.55}
+.state-help li{margin:4px 0}
+.answer-box{background:var(--navy);color:#fff;border-radius:14px;padding:18px 20px;max-width:46em;margin:0 0 10px}
+.answer-box b{display:block;color:var(--yellow);font-weight:900;font-stretch:72%;text-transform:uppercase;font-size:20px;margin-bottom:6px}
+.answer-box p{margin:0;font-size:18px;line-height:1.55}
+.limits{width:100%;max-width:46em;border-collapse:collapse;margin:8px 0 0;font-size:16px}
+.limits th,.limits td{text-align:left;padding:10px 12px;border-bottom:2px solid var(--line);vertical-align:top}
+.limits th{background:var(--navy);color:#fff;font-weight:800}
+.limits td b{color:var(--navy)}
+.steps{margin:0;padding-left:22px;max-width:44em;line-height:1.55}
+.steps li{margin:8px 0}
+.watch-main{display:grid;gap:24px;padding:26px 0 0}
+.watch-main video{display:block;width:100%;max-width:380px;aspect-ratio:9/16;height:auto;border-radius:14px;background:#000;box-shadow:0 12px 26px rgba(4,12,26,.25)}
+.watch-main h1{font-size:clamp(34px,9vw,56px);margin:0 0 10px}
+.watch-main .desc{font-size:19px;line-height:1.5;margin:0;max-width:34em}
+.transcript{background:var(--sky-pale);border-radius:14px;padding:16px 18px;max-width:44em}
+.transcript h2{font-size:clamp(28px,8vw,40px);margin:0 0 8px}
+.transcript p{margin:0;line-height:1.6;font-size:17px}
+.vlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px}
+.vlist a{text-decoration:none;color:var(--navy)}
+.vlist img{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:12px}
+.vlist b{display:block;margin-top:8px;font-weight:800;font-stretch:86%;font-size:17px;line-height:1.2}
+.vlist span{display:block;font-size:14px;color:var(--muted);margin-top:3px}
+@media (min-width:760px){
+  .progs{grid-template-columns:1fr 1fr}
+  .watch-main{grid-template-columns:380px 1fr;align-items:start}
+}
