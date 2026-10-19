@@ -200,11 +200,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .transcript{background:var(--sky-pale);border-radius:14px;padding:16px 18px;max-width:44em}
 .transcript h2{font-size:clamp(28px,8vw,40px);margin:0 0 8px}
 .transcript p{margin:0;line-height:1.6;font-size:17px}
-.vlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px}
-.vlist a{text-decoration:none;color:var(--navy)}
-.vlist img{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:12px}
-.vlist b{display:block;margin-top:8px;font-weight:800;font-stretch:86%;font-size:17px;line-height:1.2}
-.vlist span{display:block;font-size:14px;color:var(--muted);margin-top:3px}
 @media (min-width:760px){
   .progs{grid-template-columns:1fr 1fr}
   .watch-main{grid-template-columns:380px 1fr;align-items:start}
